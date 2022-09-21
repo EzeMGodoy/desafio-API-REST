@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rocka Music</title>
+  </head>
+
+  <body>
+    <div class="contenedorPrincipal contenedor">
+      <h1>Desafio 4: API RESTful</h1>
+      <div class="contenedorPost contenedor">
+        <h2>Formulario que utiliza el metodo POST</h2>
+        <form action="http://localhost:8080/api/productos" method="post">
+          <div class="contenedor">
+            <label for="title">Nombre del Producto</label>
+            <input
+              type="text"
+              name="title"
+              placeholder="Nombre del instrumento "
+              required
+            />
+          </div>
+          <div class="contenedor">
+            <label for="price">Precio del Producto</label>
+            <input
+              type="number"
+              name="price"
+              placeholder="Precio del instrumento"
+              required
+            />
+          </div>
+          <div class="contenedor">
+            <label for="thumbnail">Imagen del Producto</label>
+            <input
+              type="text"
+              name="thumbnail"
+              placeholder="URL imagen del instrumento"
+              required
+            />
+          </div>
+          <div class="contenedor">
+            <input type="submit" value="Enviar" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -17,8 +17,8 @@ Se configurará una variable de entorno para el proyecto, en este caso el puerto
 npm start
 ```
 
-## Ejecutar en Test
+## Ejecutar en Dev
 
 ```sh
-npm run test
+npm run dev
 ```
